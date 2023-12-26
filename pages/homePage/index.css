@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=Laila:wght@700&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700;900&display=swap");
+.large-container {
+  width: 100%;
+  min-height: 100vh;
+}
+.large-container .cafe-street-container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../assets/image/bg-image.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.large-container .cafe-street-container main {
+  padding: 41px 122px 257px 135px;
+}
+.large-container .cafe-street-container main .top-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.large-container .cafe-street-container main .top-container .image-1 {
+  width: 150px;
+  height: 30px;
+}
+.large-container .cafe-street-container main .top-container nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.large-container .cafe-street-container main .top-container nav ul li a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.large-container .cafe-street-container main .top-container nav ul li:first-child a {
+  color: var(--Primary, #ff902b);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.large-container .cafe-street-container main .top-container form {
+  display: flex;
+  align-items: center;
+}
+.large-container .cafe-street-container main .top-container form label {
+  width: 222px;
+  padding: 8px 0 8px 12px;
+  height: 40px;
+  border-radius: 35px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+.large-container .cafe-street-container main .top-container form label .magnifier {
+  width: 24px;
+  height: 24px;
+}
+.large-container .cafe-street-container main .top-container form label input {
+  border: none;
+  margin-left: 16px;
+  outline: none;
+}
+.large-container .cafe-street-container main .top-container form label input::-moz-placeholder {
+  color: #929292;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.large-container .cafe-street-container main .top-container form label input::placeholder {
+  color: #929292;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.large-container .cafe-street-container main .top-container form div {
+  width: 32px;
+  height: 32px;
+  margin-left: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.large-container .cafe-street-container main .top-container form div .basket {
+  width: 25.053px;
+  height: 24px;
+}
+.large-container .cafe-street-container main .top-container form div .icon {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+.large-container .cafe-street-container main .recommendations-container {
+  margin-top: 82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.large-container .cafe-street-container main .recommendations-container .box-container h1 {
+  margin-bottom: 24px;
+  width: 489px;
+  color: var(--Secondary, #2f2105);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.large-container .cafe-street-container main .recommendations-container .box-container h1 span {
+  color: var(--Primary, #ff902b);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.large-container .cafe-street-container main .recommendations-container .box-container p {
+  margin-bottom: 32px;
+  width: 393px;
+  color: var(--light, #7e7d7a);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.large-container .cafe-street-container main .recommendations-container .box-container .btn-qrup {
+  display: flex;
+  align-items: center;
+}
+.large-container .cafe-street-container main .recommendations-container .box-container .btn-qrup .order-btn {
+  margin-right: 26px;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 33px;
+  background: var(--Secondary, #2f2105);
+  box-shadow: 0px 4px 32px 0px rgba(223, 195, 124, 0.25);
+  cursor: pointer;
+}
+.large-container .cafe-street-container main .recommendations-container .box-container .btn-qrup .order-btn a {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.large-container .cafe-street-container main .recommendations-container .box-container .btn-qrup .order-btn .basket-img {
+  margin-left: 10px;
+  width: 22px;
+  height: 22px;
+}
+.large-container .cafe-street-container main .recommendations-container .box-container .btn-qrup .menu-btn {
+  padding: 10px 24px;
+  border-radius: 33px;
+  background-color: #f6ebda;
+  cursor: pointer;
+}
+.large-container .cafe-street-container main .recommendations-container .box-container .btn-qrup .menu-btn a {
+  color: #f4ae26;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.large-container .cafe-street-container main .recommendations-container .coffee-image {
+  width: 526.706px;
+  height: 416px;
+}
+.large-container .cafe-street-container main .bottom-container {
+  margin-top: 90px;
+  display: flex;
+}
+.large-container .cafe-street-container main .bottom-container h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.large-container .cafe-street-container main .bottom-container h3 {
+  margin-left: 10px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.large-container .cafe-street-container main .bottom-container h3 hr {
+  width: 74px;
+  height: 4px;
+  border-radius: 12px;
+  background: var(--Primary, #ff902b);
+  border: none;
+}
+.large-container .service-container {
+  width: 100%;
+  padding: 0 0 208px 0;
+  min-height: 100vh;
+}
+.large-container .service-container .top-container {
+  position: absolute;
+  top: -120px;
+  width: 1268px;
+  padding: 0 86px;
+  position: relative;
+}
+.large-container .service-container .top-container .image-1 {
+  width: 1268px;
+  height: 367px;
+}
+.large-container .service-container .top-container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 44px;
+  position: absolute;
+  bottom: 87px;
+  left: 149px;
+}
+.large-container .service-container .top-container .box img {
+  width: 355px;
+  height: 385px;
+}
+.large-container .service-container .bottom-container {
+  margin-top: 120px;
+  width: 100%;
+  padding: 0 135px;
+}
+.large-container .service-container .bottom-container .title-container {
+  display: flex;
+  align-items: center;
+}
+.large-container .service-container .bottom-container .title-container h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.large-container .service-container .bottom-container .title-container h3 {
+  margin-left: 10px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.large-container .service-container .bottom-container .title-container hr {
+  height: 4px;
+  border-radius: 12px;
+  background: var(--Primary, #ff902b);
+  border: none;
+}
+.large-container .service-container .bottom-container .box-container {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.large-container .service-container .bottom-container .box-container .box {
+  width: 370px;
+  margin-left: 32px;
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.large-container .service-container .bottom-container .box-container .box img {
+  width: 159px;
+  height: 159px;
+}
+.large-container .service-container .bottom-container .box-container .box h4 {
+  margin-top: 17px;
+  color: var(--Secondary, #2f2105);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+.large-container .service-container .bottom-container .box-container .box p {
+  margin-top: 8px;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}/*# sourceMappingURL=index.css.map */
