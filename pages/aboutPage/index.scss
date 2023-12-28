@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=Laila:wght@700&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700;900&display=swap");
+
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+
+  .about-us-container {
+    width: 100%;
+    padding: 84px 188px 83px 801px;
+    min-height: 100vh;
+    // background-image: ;
+    background-color: chocolate;
+    // background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 359.132px;
+      height: 497.665px;
+      border-radius: 12px;
+      position: absolute;
+      top: 0px;
+      left: 235px;
+    }
+
+    .text-container {
+      h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.28px;
+        display: flex;
+        span {
+          margin-left: 10px;
+          color: #000;
+          font-family: Poppins;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: 1.28px;
+
+          hr {
+            width: 43px;
+            height: 4px;
+            border-radius: 12px;
+            background: var(--Primary, #ff902b);
+          }
+        }
+      }
+
+      h2 {
+        width: 348px;
+        margin-top: 23px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.96px;
+      }
+
+      p {
+        margin-top: 15px;
+        width: 478px;
+        color: var(--light, #7e7d7a);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.72px;
+      }
+
+      button {
+        margin-top: 31px;
+        width: 142px;
+        padding: 10px 24px;
+        border-radius: 33px;
+        background: var(--Secondary, #2f2105);
+
+        a {
+          color: #f4ae26;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+    }
+  }
+
+  .your-menu-container {
+    width: 100%;
+    padding: 120px 146px 120px 146px;
+
+    h1 {
+      margin-bottom: 32px;
+      color: #000;
+      font-family: Poppins;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 1.28px;
+      display: flex;
+
+      span {
+        margin-left: 10px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.28px;
+
+        hr {
+          width: 121px;
+          height: 4.431px;
+          border-radius: 12px;
+          background: var(--Primary, #ff902b);
+        }
+      }
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+
+      .card {
+        width: 356px;
+        height: 385px;
+        border-radius: 15px;
+        padding: 30px 24px 25px 24px;
+        // fill: #fff;
+        box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.32);
+
+        position: relative;
+        .product {
+          width: 307.865px;
+          height: 226px;
+          border-radius: 12px;
+        }
+
+        .title {
+          width: 70.197px;
+          height: 34px;
+          border-radius: 27px;
+          background: var(
+            --glass,
+            linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.7) 0%,
+              rgba(255, 255, 255, 0.4) 100%
+            )
+          );
+          backdrop-filter: blur(2px);
+          position: relative;
+          position: absolute;
+          top: 37px;
+          left: 34px;
+
+          .child-title {
+            width: 62px;
+            height: 26px;
+            display: flex;
+            height: 26px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            border-radius: 50px;
+            background: #fff;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            p {
+              color: var(--Secondary, #2f2105);
+              text-align: center;
+              font-family: Poppins;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              letter-spacing: 0.56px;
+            }
+
+            .icon {
+              width: 14px;
+              height: 14px;
+            }
+          }
+        }
+
+        ul {
+          margin-top: 19px;
+          padding: 0 11px;
+
+          li {
+            display: flex;
+            justify-content: space-between;
+
+            h2 {
+              color: var(--Secondary, #2f2105);
+              font-family: Poppins;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              letter-spacing: 0.96px;
+            }
+
+            p {
+              width: 161px;
+              margin-top: 5px;
+              color: var(--light, #7e7d7a);
+              font-family: Poppins;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              letter-spacing: 0.56px;
+            }
+
+            h3 {
+              color: var(--Secondary, #2f2105);
+              text-align: center;
+              font-family: Poppins;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              letter-spacing: 0.96px;
+            }
+
+            .basket {
+              margin-top: 6px;
+              width: 43.121px;
+              height: 43px;
+            }
+          }
+
+          //   li:last-child {
+          //     width: 148px;
+          //     margin-left: 74px;
+          //   }
+        }
+      }
+    }
+  }
+}
