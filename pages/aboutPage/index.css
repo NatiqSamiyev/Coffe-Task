@@ -2,24 +2,25 @@
 .about-container {
   width: 100%;
   min-height: 100vh;
-  position: relative;
 }
 .about-container .about-us-container {
   width: 100%;
-  padding: 84px 188px 83px 801px;
-  min-height: 100vh;
-  background-color: chocolate;
+  padding: 0px 188px 0 240px;
+  margin-top: 200px;
+  background-image: url("../../assets/image/bg-image (2).svg");
+  background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  align-items: center;
 }
 .about-container .about-us-container img {
   width: 359.132px;
   height: 497.665px;
   border-radius: 12px;
-  position: absolute;
-  top: 0px;
-  left: 235px;
+  position: relative;
+  bottom: 68px;
 }
 .about-container .about-us-container .text-container h1 {
   color: #000;

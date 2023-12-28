@@ -3,26 +3,24 @@
 .about-container {
   width: 100%;
   min-height: 100vh;
-  position: relative;
-
   .about-us-container {
     width: 100%;
-    padding: 84px 188px 83px 801px;
-    min-height: 100vh;
-    // background-image: ;
-    background-color: chocolate;
-    // background-repeat: no-repeat;
+    padding: 0px 188px 0 240px;
+    margin-top: 200px;
+    background-image: url("../../assets/image/bg-image\ \(2\).svg");
+    background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    align-items: center;
 
     img {
       width: 359.132px;
       height: 497.665px;
       border-radius: 12px;
-      position: absolute;
-      top: 0px;
-      left: 235px;
+      position: relative;
+      bottom: 68px;
     }
 
     .text-container {
@@ -133,8 +131,12 @@
     }
 
     .card-container {
+      //   display: grid;
       display: flex;
       flex-wrap: wrap;
+
+      //   grid-template-columns: 1fr 1fr 1fr ;
+
       gap: 40px;
 
       .card {
